@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5d740f10-5306-4f7f-bfa2-1cadaa875ebe" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Llmw6t3Jx40i9x9H9zIWchtRhQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/vincent.saunier/afs/ING1/epita-ing-assistants-yaka-jws-2025-vincent.saunier/jws/pom.xml",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="endpoints" type="QuarkusRunConfigurationType" factoryName="Quarkus">
+      <module name="endpoints" />
+      <QsMavenRunConfiguration>
+        <MavenSettings>
+          <option name="myGeneralSettings" />
+          <option name="myRunnerSettings" />
+          <option name="myRunnerParameters">
+            <MavenRunnerParameters>
+              <option name="profiles">
+                <set />
+              </option>
+              <option name="goals">
+                <list>
+                  <option value="quarkus:dev" />
+                </list>
+              </option>
+              <option name="pomFileName" value="pom.xml" />
+              <option name="profilesMap">
+                <map />
+              </option>
+              <option name="resolveToWorkspace" value="false" />
+              <option name="workingDirPath" value="$PROJECT_DIR$" />
+            </MavenRunnerParameters>
+          </option>
+        </MavenSettings>
+        <targetMavenLocalRepo />
+      </QsMavenRunConfiguration>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d740f10-5306-4f7f-bfa2-1cadaa875ebe" name="Changes" comment="" />
+      <created>1676454278675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676454278675</updated>
+      <workItem from="1676454279883" duration="258000" />
+      <workItem from="1676454551461" duration="2988000" />
+      <workItem from="1676457555554" duration="8062000" />
+      <workItem from="1676469840863" duration="250000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

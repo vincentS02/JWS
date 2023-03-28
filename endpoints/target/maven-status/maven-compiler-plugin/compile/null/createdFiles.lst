@@ -1,0 +1,5 @@
+fr/epita/assistants/presentation/rest/response/HelloResponse.class
+fr/epita/assistants/presentation/rest/response/ReverseResponse.class
+fr/epita/assistants/presentation/rest/Endpoints.class
+META-INF/panache-archive.marker
+fr/epita/assistants/presentation/rest/request/ReverseRequest.class

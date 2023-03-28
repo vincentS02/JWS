@@ -1,0 +1,64 @@
+openapi: 3.0.3
+info:
+  title: JWS endpoint exercise
+  description: JWS endpoint exercise
+  version: 1.0.0
+servers:
+  - url: http://localhost:8082/
+paths:
+  /hello/{name}:
+    get:
+      summary: "GET {name}"
+      parameters:
+        - name: "name"
+          required: true
+          in: "path"
+          example: "test"
+          schema:
+            type: string
+      responses:
+        "200":
+          description: "OK"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/helloResponse'
+  /reverse:
+    post:
+      summary: "POST"
+      requestBody:
+        required: true
+        description: "string"
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/reverseRequest'
+      responses:
+        "200":
+          description: "object containing the original string and a reversed version"
+          content:
+            application/json:
+             schema:
+               $ref: '#/components/schemas/reverseResponse'
+        "400":
+          description: "Bad Request, returned if content is empty"
+components:
+  schemas:
+    helloResponse:
+      properties:
+        content:
+          type: string
+          example: "hello test"
+    reverseRequest:
+      properties:
+        content:
+          type: string
+          example: "hello\ntest"
+    reverseResponse:
+      properties:
+        original:
+          type: string
+          example: "hello\ntest"
+        reversed:
+          type: string
+          example: "tset\nolleh"
